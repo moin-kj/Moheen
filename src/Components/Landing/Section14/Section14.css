@@ -1,0 +1,20 @@
+.container2 {
+  position: sticky;
+  background-color: aliceblue;
+}
+
+.top20 {
+  top: 10%;
+}
+
+.top30 {
+  top: 23%;
+}
+
+.top40 {
+  top: 35%;
+}
+
+.top50 {
+  top: 50%;
+}

@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'VAG-Rounded';
+    src: url('./assets/Fonts/vag-rounded-regular_ypjsZ.tff/') format('ttf');
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::-webkit-scrollbar {
+    width: 2px;
+    border-radius: 2px;
+    height: 12px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: black;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: aliceblue;
+    border-radius: 6px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #008bff;
+    width: 10px;
+
+}

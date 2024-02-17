@@ -1,0 +1,12 @@
+.container1{
+    position: sticky;
+    background-color: aliceblue;
+    top: 20%;
+}
+
+
+
+.section11_desc{
+    font-size: 1.125rem !important;
+    font-family: Stag Sans Round,Verdana,sans-serif;
+}

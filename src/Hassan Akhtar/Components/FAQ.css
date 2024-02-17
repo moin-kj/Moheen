@@ -1,0 +1,23 @@
+.faq-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.faq-arrow {
+  font-size: 18px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.faq-arrow.open {
+  transform: rotate(180deg);
+}
+
+.faq-answer-content {
+  display: none;
+}
+
+.faq-item.open .faq-answer-content {
+  display: block;
+}

@@ -1,0 +1,59 @@
+.nav-link {
+    font-size: 1.1rem !important;
+    color: black !important;
+}
+.nav-item.dropdown {
+    position: inherit;
+}
+
+#basic-nav-dropdown {
+    font-size: 0.95rem;
+}
+
+.dropdown-menu {
+    background-color: aliceblue !important;
+    border: none !important;
+    width: 100%;
+
+}
+
+.dropdown-item {
+    text-decoration: none !important;
+    font-size: 1rem !important;
+
+}
+
+.dropdown-item:hover {
+    background-color: aliceblue !important;
+}
+
+.dropdown-menu {
+    padding: 1em;
+}
+
+.navicons {
+    margin-right: 14px;
+    font-size: 26px !important;
+    color: blue;
+}
+.dropdown-toggle::after { 
+    content: none !important; 
+} 
+
+@media only screen and (min-width: 600px) {
+    .eventsNav {
+        width: 100em !important;
+        height: 10em !important;
+        padding-bottom: 1em;
+    }
+    .eventsNav1 {
+        width: 100em !important;
+        height: 30em !important;
+        padding-bottom: 1em;
+    }
+    .eventsNav2 {
+        width: 100em !important;
+        height: 10em !important;
+        padding-bottom: 1em;
+    }
+}

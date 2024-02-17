@@ -1,0 +1,9 @@
+.new {
+    border: 1px solid black;
+
+
+}
+
+.new:active{
+    border: 1px solid green !important;
+}

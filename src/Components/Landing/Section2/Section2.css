@@ -1,0 +1,27 @@
+.card-title {
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+  }
+  
+  .card-body {
+    padding: 30px !important;
+  }
+  
+  .card {
+    border: 1px solid #253778 !important;
+    background-color: aliceblue !important;
+    cursor: pointer !important;
+    border-radius: 12px !important;
+    transition: background-color 0.9s ease;
+  }
+  
+  .card:hover {
+    background-color: #253778 !important;
+  }
+  
+  .card:hover .text-black,
+  .card:hover .text-light-gray,
+  .card:hover .text-primary {
+    color: white !important;
+  }
+  

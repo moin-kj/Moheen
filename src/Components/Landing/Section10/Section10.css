@@ -1,0 +1,13 @@
+.accor{
+  background-color: aliceblue !important;
+  border: none !important;
+}
+.accordion-button{
+  background-color: aliceblue !important;
+  box-shadow: none !important;
+
+}
+.accor:focus{
+  border: 1px solid black !important;
+  
+}

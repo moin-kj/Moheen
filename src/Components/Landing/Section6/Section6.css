@@ -1,0 +1,9 @@
+/* 
+.brands{
+    cursor: pointer !important;
+    filter: grayscale(100%) !important;
+}
+.brands:hover{
+    cursor: pointer !important;
+    filter: grayscale(0%) !important;
+  } */
